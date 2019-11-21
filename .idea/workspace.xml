@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41ca951e-7cd3-4d64-a8db-69ed38d158ec" name="Default Changelist" comment="" />
+    <list default="true" id="41ca951e-7cd3-4d64-a8db-69ed38d158ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/dto/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f2e53e0-4342-4d32-bee2-9569f758b156.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5f2e53e0-4342-4d32-bee2-9569f758b156.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/OAuth2ServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/OAuth2ServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-oauth2-server/target/classes/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-security-auth2-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-security-oauth2-server/target/" />
@@ -30,14 +49,7 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="oauth2_resource@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="oauth2_resource@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="oauth2_resource: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="spring_security@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
@@ -46,49 +58,52 @@
     <session id="-517126144">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="30" />
+          <entry key="java" value="54" />
           <entry key="pom" value="2" />
           <entry key="properties" value="1" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="14" />
-          <entry key="yml" value="4" />
+          <entry key="xml" value="21" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="54" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="16" />
-          <entry key="YAML" value="4" />
+          <entry key="XML" value="23" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1539" />
+          <entry key="java" value="1626" />
           <entry key="txt" value="40" />
           <entry key="xml" value="426" />
-          <entry key="yml" value="59" />
+          <entry key="yml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1539" />
+          <entry key="JAVA" value="1626" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="SQL" value="9" />
           <entry key="XML" value="417" />
-          <entry key="YAML" value="59" />
+          <entry key="YAML" value="83" />
         </counts>
       </usages-collector>
     </session>
@@ -96,70 +111,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="84" column="78" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0f68538-99d6-4929-a801-d4b48e0fccfa/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/mapper/TbContentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/tk/mybatis/mapper/MyMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="310">
+              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,22 +123,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java">
+        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/dto/ResponseResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="-1058">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/config/ResourceServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="334">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,15 +184,19 @@
     <findStrings>
       <find>Using generated security password</find>
       <find>Enname</find>
+      <find>BaseSelectProvider</find>
+      <find>tk</find>
+      <find>WebSecurityConfiguration</find>
       <find>spring-boot-starter-security</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfigurerAdapter.java" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/test/com.homgkutech.pauth2.server.test/PasswordTest.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/tk/mybatis/mapper/MyMapper.java" />
@@ -224,18 +209,23 @@
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/service/impl/TbPermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/mapper/TbPermissionMapper.xml" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/tk/mybatis/MyMapper/MyMapper.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/mapper/TbContentMapper.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/tk/mybatis/mapper/MyMapper.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java" />
-        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/dto/ResponseResult.java" />
         <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java" />
       </list>
     </option>
   </component>
@@ -247,21 +237,34 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-security-oauth2-resource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-security-oauth2-resource" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="871" />
-    <option name="y" value="408" />
+    <option name="x" value="42" />
+    <option name="y" value="99" />
     <option name="width" value="1496" />
     <option name="height" value="826" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,7 +326,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
@@ -334,15 +337,149 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,8 +490,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573553289645" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-oauth2-resource/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573780384888" />
+    <property name="last_opened_file_path" value="F:/download_github/spring-boot-samples/spring-security-oauth2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -383,8 +520,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.31385282" />
   </component>
-  <component name="RunManager" selected="Spring Boot.OAuth2ServerApplication">
+  <component name="RunManager" selected="Spring Boot.OAuth2ResourceApplication">
     <configuration name="PasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.homgkutech.pauth2.server.test.PasswordTest" />
       <module name="spring-security-oauth2-server" />
@@ -414,8 +552,8 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.OAuth2ServerApplication" />
-      <item itemvalue="Application.PasswordTest" />
       <item itemvalue="Spring Boot.OAuth2ResourceApplication" />
+      <item itemvalue="Application.PasswordTest" />
     </list>
     <recent_temporary>
       <list>
@@ -436,18 +574,21 @@
       <workItem from="1573466774882" duration="572000" />
       <workItem from="1573520984502" duration="2442000" />
       <workItem from="1573524304155" duration="14045000" />
-      <workItem from="1573544380336" duration="7814000" />
+      <workItem from="1573544380336" duration="8313000" />
+      <workItem from="1573607364373" duration="9130000" />
+      <workItem from="1573618253327" duration="6278000" />
+      <workItem from="1573800775789" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24873000" />
+    <option name="totallyTimeSpent" value="40890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,7 +596,6 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39599556" />
@@ -470,7 +610,7 @@
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Mybatis datasource" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.30289534" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,9 +618,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.2510661" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.18923241" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.25373134" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3296126" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" show_stripe_button="false" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,40 +642,10 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f2e53e0-4342-4d32-bee2-9569f758b156/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/test/com.homgkutech.pauth2.server.test/PasswordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -545,20 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/domain/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/tk/mybatis/mapper/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,23 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/mapper/TbPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/mapper/TbPermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -614,10 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,122 +705,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/UserDetailsServiceImpl.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0f68538-99d6-4929-a801-d4b48e0fccfa/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="742">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/domain/TbContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-auth2-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="84" column="78" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0f68538-99d6-4929-a801-d4b48e0fccfa/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/mapper/TbContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="185">
+          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/tk/mybatis/mapper/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/impl/TbContentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/mapper/TbContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/service/TbContentService.java">
+    <entry file="file://$PROJECT_DIR$/spring-security-auth2-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="125">
+          <caret line="67" selection-start-line="64" selection-start-column="44" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/mapper/TbPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/mapper/TbUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/mapper/TbPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="24" selection-start-line="20" selection-start-column="4" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/service/WebSecurityConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/domain/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/OAuth2ResourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/OAuth2ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="129" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-server/src/main/java/com/hongkutech/oauth2/server/config/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -752,8 +879,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/controller/TbContentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-security-oauth2-resource/src/main/java/com/hongkutech/oauth2/resource/dto/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1058">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@ public class TbContentServiceImpl implements TbContentService{
     private TbContentMapper tbContentMapper;
 
     @Override
-    public List<TbContent> getAll() {
+    public List<TbContent> selectAll() {
         return tbContentMapper.selectAll();
     }
 }

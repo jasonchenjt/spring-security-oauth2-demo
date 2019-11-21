@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface TbContentService{
 
-    List<TbContent> getAll();
+    List<TbContent> selectAll();
 
 }
