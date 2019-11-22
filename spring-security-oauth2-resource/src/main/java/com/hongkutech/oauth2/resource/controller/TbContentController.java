@@ -21,5 +21,9 @@ public class TbContentController {
         return new ResponseResult<>(Integer.valueOf(HttpStatus.OK.value()), HttpStatus.OK.toString(), tbContentService.selectAll());
     }
 
+    @GetMapping("/users")
+    public ResponseResult<List<TbContent>> selectById() {
+        return new ResponseResult(Integer.valueOf(HttpStatus.OK.value()), HttpStatus.OK.toString(), tbContentService.selectByPrimaryKey());
+    }
 
 }

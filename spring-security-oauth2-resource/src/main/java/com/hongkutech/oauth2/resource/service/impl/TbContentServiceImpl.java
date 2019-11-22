@@ -18,4 +18,9 @@ public class TbContentServiceImpl implements TbContentService{
     public List<TbContent> selectAll() {
         return tbContentMapper.selectAll();
     }
+
+    @Override
+    public TbContent selectByPrimaryKey() {
+        return tbContentMapper.selectByPrimaryKey(29);
+    }
 }

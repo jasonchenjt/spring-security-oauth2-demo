@@ -35,6 +35,7 @@ public class WebSecurityConfiguration  extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService());
     }
 
+    //过滤资源服务器访问令牌的端点,否则获取资源服务器上的资源
     @Override
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/oauth/check_token");
